@@ -17,7 +17,7 @@ const EpisodeContainer = styled.div`
   margin: 5px;
   padding: 8px;
   border: 1px solid teal;
-  width: 250px;
+  width: auto;
 `;
 
 const NameWrapper = styled.div`
@@ -51,7 +51,7 @@ const VideoWrapper = styled.div`
   min-height: 225px;
 `;
 
-const Video = () => {
+const EpisodeGrid = () => {
   const [episodeData, setEpisodeData] = useState([]);
 
   const fetchData = () => {
@@ -89,4 +89,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default EpisodeGrid;
