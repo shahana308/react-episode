@@ -17,7 +17,7 @@ const EpisodeContainer = styled.div`
   margin: 5px;
   padding: 8px;
   border: 1px solid teal;
-  width: auto;
+  width: 600px;
 `;
 
 const NameWrapper = styled.div`
